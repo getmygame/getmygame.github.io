@@ -94,80 +94,79 @@ Gunsmith Simulator,https://www.clictune.com/krt3,https://i.imgur.com/bIdz5Tm.jpe
 Left 4 Dead 2,https://www.clictune.com/krt4,https://i.imgur.com/NCqj1JM.jpeg
 Just Cause 3,https://www.clictune.com/krt5,https://i.imgur.com/3ZfIK5F.jpeg
 Job Simulator,https://www.clictune.com/krt6,https://i.imgur.com/9F7siJ5.jpeg
-South Park Snow Day,https://www.clictune.com/krt7,
-Cooking Simulator VR,https://www.clictune.com/krt8,
-Beat Saber,https://www.clictune.com/krt9,
-Star Wars Jedi Fallen Order,https://www.clictune.com/krta,
-Kebab Chefs Restaurant Simulator,https://www.clictune.com/krtb,
-Supermarket Simulator,https://www.clictune.com/krtc,
-NARUTO TO BORUTO SHINOBI STRIKER,https://www.clictune.com/krtd,
-Helicopter Simulator,https://www.clictune.com/krte,
-Call of Duty Modern Warfare 2,https://www.clictune.com/krtf,
-Call of Duty Modern Warfare Remastered,https://www.clictune.com/krtg,
-Assassins Creed Origins,https://www.clictune.com/krth,
-Assassin’s Creed IV Black Flag,https://www.clictune.com/krti,
-Assassins Creed III Remastered,https://www.clictune.com/krtj,
-Assassin's Creed II,https://www.clictune.com/krtk,
-Assassin's Creed,https://www.clictune.com/krtl,
-Phasmophobia,https://www.clictune.com/krtm,
-Workers and Resources Soviet Republic,https://www.clictune.com/krtn,
-Poly Bridge 2,https://www.clictune.com/krto,
-Pacify,https://www.clictune.com/krtp,
-Emergency Call 112,https://www.clictune.com/krtq,
-	Goat Simulator,https://www.clictune.com/krtr,
-FNAF Sister Location,https://www.clictune.com/krts,
-Five Nights at Freddy's 4,https://www.clictune.com/krtt,
-Five Nights at Freddy's 3,https://www.clictune.com/krtu,
-Five Nights at Freddy's 2,https://www.clictune.com/krtv,
-Five Nights at Freddy's 1,https://www.clictune.com/krtw,
-THORN,https://www.clictune.com/krtx,
-Gang Beasts,https://www.clictune.com/krty,
-Satisfactory,https://www.clictune.com/krtz,
-Universe Sandbox 2,https://www.clictune.com/krtA,
-Control Ultimate Edition,https://www.clictune.com/krtB,
-Subway Simulator,https://www.clictune.com/krtC,
-Untitled Goose Game,https://www.clictune.com/krtD,
-Ranch Simulator,https://www.clictune.com/krtE,
-Cuphead,https://www.clictune.com/krtF,
-Little Inferno,https://www.clictune.com/krtG,
-Darkwood,https://www.clictune.com/krtH,
-European Ship Simulator Remastered,https://www.clictune.com/krtI,
-Thief Simulator,https://www.clictune.com/krtJ,
-RiMS Racing,https://www.clictune.com/krtK,
-shapez.io,https://www.clictune.com/krtL,
-Assetto Corsa Competizione,https://www.clictune.com/krtM,
-Two Point Hospital,https://www.clictune.com/krtN,
-The Architect Paris,https://www.clictune.com/krtO,
-Mafia Definitive Edition,https://www.clictune.com/krtP,
-Police Simulator Patrol Officers,https://www.clictune.com/krtQ,
-Detroit Become Human,https://www.clictune.com/krtR,
-Streamer Life Simulator,https://www.clictune.com/krtS,
-Grounded,https://www.clictune.com/krtT,
-MX Bikes,https://www.clictune.com/krtU,
-Dead Island Retro Revenge,https://www.clictune.com/krtV,
-Red Dead Redemption 2,https://www.clictune.com/krtW,
-Dead Island Riptide Definitive Edition,https://www.clictune.com/krtX,
-Dead Island Definitive Edition,https://www.clictune.com/krtY,
-INSURGENCY,https://www.clictune.com/krtZ,
-L.A. Noire - Complete Edition,https://www.clictune.com/kru0,
-Peopole Playground,https://www.clictune.com/kru1,
-Snowtopia,https://www.clictune.com/kru2,
-Metro 2033 Redux,https://www.clictune.com/kru3,
-Drug Dealer Simulator,https://www.clictune.com/kru4,
-Poly Bridge 3,https://www.clictune.com/kru5,
-Winter Resort Simulator Season 2,https://www.clictune.com/kru6,
-Inside The Backrooms,https://www.clictune.com/kru7,
-Welcome to the Game 2,https://www.clictune.com/kru8,
-Slime Rancher 2,https://www.clictune.com/kru9,
-Elden Ring,https://www.clictune.com/krua,
-Stray,https://www.clictune.com/krub,
-Marvel's Spider Man Remastered,https://www.clictune.com/kruc,
-Insurmountable,https://www.clictune.com/krud,
-Five Nights at Freddys Security Breach,https://www.clictune.com/krue,
-Please Dont Touch Anything 3D,https://www.clictune.com/kruf,
-Shredders,https://www.clictune.com/krug,
-Calm Down Stalin,https://www.clictune.com/kruh,
-Keep Talking And Nobody Explodes,https://www.clictune.com/kruF,
+South Park Snow Day,https://www.clictune.com/krt7,https://i.imgur.com/vXITgzW.jpeg
+Cooking Simulator VR,https://www.clictune.com/krt8,https://i.imgur.com/H3ZvVBE.jpeg
+Beat Saber,https://www.clictune.com/krt9,https://i.imgur.com/Kd8jHYw.jpeg
+Star Wars Jedi Fallen Order,https://www.clictune.com/krta,https://i.imgur.com/hoBZBwZ.jpeg
+Kebab Chefs Restaurant Simulator,https://www.clictune.com/krtb,https://i.imgur.com/9hrNGsn.jpeg
+Supermarket Simulator,https://www.clictune.com/krtc,https://i.imgur.com/gGjA3dN.jpeg
+NARUTO TO BORUTO SHINOBI STRIKER,https://www.clictune.com/krtd,https://i.imgur.com/46tE0lW.jpeg
+Helicopter Simulator,https://www.clictune.com/krte,https://i.imgur.com/bG3dtmo.jpeg
+Call of Duty Modern Warfare 2,https://www.clictune.com/krtf,https://i.imgur.com/iMuZOwT.jpeg
+Call of Duty Modern Warfare Remastered,https://www.clictune.com/krtg,https://i.imgur.com/L4QVOeJ.jpeg
+Assassins Creed Origins,https://www.clictune.com/krth,https://i.imgur.com/LOmDmz8.jpeg
+Assassin’s Creed IV Black Flag,https://www.clictune.com/krti,https://i.imgur.com/zz3npeQ.jpeg
+Assassins Creed III Remastered,https://www.clictune.com/krtj,https://i.imgur.com/h9JyPDh.jpeg
+Assassin's Creed II,https://www.clictune.com/krtk,https://i.imgur.com/6dspIEk.jpeg
+Assassin's Creed,https://www.clictune.com/krtl,https://i.imgur.com/Du1IkfG.jpeg
+Phasmophobia,https://www.clictune.com/krtm,https://i.imgur.com/cryZPzY.jpeg
+Workers and Resources Soviet Republic,https://www.clictune.com/krtn,https://i.imgur.com/1SsszE2.jpeg
+Poly Bridge 2,https://www.clictune.com/krto,https://i.imgur.com/Gtz8WjV.jpeg
+Pacify,https://www.clictune.com/krtp,https://i.imgur.com/dPbBaxX.jpeg
+Emergency Call 112,https://www.clictune.com/krtq,https://i.imgur.com/XTQ2Tdo.jpeg
+Goat Simulator,https://www.clictune.com/krtr,https://i.imgur.com/lCxsJU7.jpeg
+FNAF Sister Location,https://www.clictune.com/krts,https://i.imgur.com/KF8M7fP.jpeg
+Five Nights at Freddy's 4,https://www.clictune.com/krtt,https://i.imgur.com/tFMM2UD.jpeg
+Five Nights at Freddy's 3,https://www.clictune.com/krtu,https://i.imgur.com/aOPYEab.jpeg
+Five Nights at Freddy's 2,https://www.clictune.com/krtv,https://i.imgur.com/YjNPnmK.jpeg
+Five Nights at Freddy's 1,https://www.clictune.com/krtw,https://i.imgur.com/TVSztG9.jpeg
+THORN,https://www.clictune.com/krtx,https://i.imgur.com/HHjxE6E.jpeg
+Gang Beasts,https://www.clictune.com/krty,https://i.imgur.com/4naGc0g.jpeg
+Satisfactory,https://www.clictune.com/krtz,https://i.imgur.com/X2nGXgl.jpeg
+Universe Sandbox 2,https://www.clictune.com/krtA,https://i.imgur.com/3z21iEH.jpeg
+Control Ultimate Edition,https://www.clictune.com/krtB,https://i.imgur.com/Kru2XHS.jpeg
+Subway Simulator,https://www.clictune.com/krtC,https://i.imgur.com/gtY6J5L.jpeg
+Untitled Goose Game,https://www.clictune.com/krtD,https://i.imgur.com/ZzKJ5yW.jpeg
+Ranch Simulator,https://www.clictune.com/krtE,https://i.imgur.com/fCFznmp.jpeg
+Cuphead,https://www.clictune.com/krtF,https://i.imgur.com/ZiY0USu.jpeg
+Little Inferno,https://www.clictune.com/krtG,https://i.imgur.com/y41ggXx.jpeg
+Darkwood,https://www.clictune.com/krtH,https://i.imgur.com/jxXxgTi.jpeg
+European Ship Simulator Remastered,https://www.clictune.com/krtI,https://i.imgur.com/OJMSQz6.jpeg
+Thief Simulator,https://www.clictune.com/krtJ,https://i.imgur.com/2RXMMya.jpeg
+RiMS Racing,https://www.clictune.com/krtK,https://i.imgur.com/xFMzakn.jpeg
+shapez.io,https://www.clictune.com/krtL,https://i.imgur.com/lzSTY0p.jpeg
+Assetto Corsa Competizione,https://www.clictune.com/krtM,https://i.imgur.com/rVuywbV.jpeg
+Two Point Hospital,https://www.clictune.com/krtN,https://i.imgur.com/DuqhDtr.jpeg
+The Architect Paris,https://www.clictune.com/krtO,https://i.imgur.com/LoUxsBV.jpeg
+Mafia Definitive Edition,https://www.clictune.com/krtP,https://i.imgur.com/ByBwKps.jpeg
+Police Simulator Patrol Officers,https://www.clictune.com/krtQ,https://i.imgur.com/UmPXc9B.jpeg
+Detroit Become Human,https://www.clictune.com/krtR,https://i.imgur.com/79MXsoi.jpeg
+Streamer Life Simulator,https://www.clictune.com/krtS,https://i.imgur.com/IK1P7eK.jpeg
+Grounded,https://www.clictune.com/krtT,https://i.imgur.com/OWBMQ8y.jpeg
+MX Bikes,https://www.clictune.com/krtU,https://i.imgur.com/JEA5kZA.jpeg
+Dead Island Retro Revenge,https://www.clictune.com/krtV,https://i.imgur.com/iPxZjZO.jpeg
+Red Dead Redemption 2,https://www.clictune.com/krtW,https://i.imgur.com/H88o95x.jpeg
+Dead Island Riptide Definitive Edition,https://www.clictune.com/krtX,https://i.imgur.com/OpktiVt.jpeg
+Dead Island Definitive Edition,https://www.clictune.com/krtY,https://i.imgur.com/umI6leR.jpeg
+INSURGENCY,https://www.clictune.com/krtZ,https://i.imgur.com/I4OQNTH.jpeg
+L.A. Noire - Complete Edition,https://www.clictune.com/kru0,https://i.imgur.com/PUK05sE.jpeg
+Snowtopia,https://www.clictune.com/kru2,https://i.imgur.com/jNCY7IM.jpeg
+Metro 2033 Redux,https://www.clictune.com/kru3,https://i.imgur.com/IrDN3Ql.jpeg
+Drug Dealer Simulator,https://www.clictune.com/kru4,https://i.imgur.com/mYtXGwY.jpeg
+Poly Bridge 3,https://www.clictune.com/kru5,https://i.imgur.com/IYiqJGa.jpeg
+Winter Resort Simulator Season 2,https://www.clictune.com/kru6,https://i.imgur.com/twlzvsO.jpeg
+Inside The Backrooms,https://www.clictune.com/kru7,https://i.imgur.com/XcPVuea.jpeg
+Welcome to the Game 2,https://www.clictune.com/kru8,https://i.imgur.com/LTPKtfv.jpeg
+Slime Rancher 2,https://www.clictune.com/kru9,https://i.imgur.com/v68nGPM.jpeg
+Elden Ring,https://www.clictune.com/krua,https://i.imgur.com/JF1BvDD.jpeg
+Stray,https://www.clictune.com/krub,https://i.imgur.com/9Jgkav6.jpeg
+Marvel's Spider Man Remastered,https://www.clictune.com/kruc,https://i.imgur.com/2VwVAT7.jpeg
+Insurmountable,https://www.clictune.com/krud,https://i.imgur.com/umWu5LX.jpeg
+Five Nights at Freddys Security Breach,https://www.clictune.com/krue,https://i.imgur.com/Uur9NwM.jpeg
+Please Dont Touch Anything 3D,https://www.clictune.com/kruf,https://i.imgur.com/eBmrScI.jpeg
+Shredders,https://www.clictune.com/krug,https://i.imgur.com/0t7o6QG.jpeg
+Calm Down Stalin,https://www.clictune.com/kruh,https://i.imgur.com/e1hbOLV.jpeg
+Keep Talking And Nobody Explodes,https://www.clictune.com/kruF,https://i.imgur.com/zFbyobt.jpeg
 `
 
 function csvJSON(csv){
