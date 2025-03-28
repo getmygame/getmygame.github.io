@@ -167,6 +167,40 @@ Please Dont Touch Anything 3D,https://www.clictune.com/kruf,https://i.imgur.com/
 Shredders,https://www.clictune.com/krug,https://i.imgur.com/0t7o6QG.jpeg
 Calm Down Stalin,https://www.clictune.com/kruh,https://i.imgur.com/e1hbOLV.jpeg
 Keep Talking And Nobody Explodes,https://www.clictune.com/kruF,https://i.imgur.com/zFbyobt.jpeg
+Hearts of Iron IV,https://www.clictune.com/krEy,https://i.imgur.com/TQcAtKa.jpeg
+Chained in the Backrooms,https://www.clictune.com/krEz,https://i.imgur.com/eornQNS.jpeg
+Longvinter,https://www.clictune.com/krEA,https://i.imgur.com/t5Kdfp8.jpeg
+Schedule I,https://www.clictune.com/krEB,https://i.imgur.com/sYAk9oY.jpeg
+My Garage,https://www.clictune.com/krEC,https://i.imgur.com/qm3YarV.jpeg
+DEATH IN UNISON,https://www.clictune.com/krED,https://i.imgur.com/Ic1Cw9I.jpeg
+Project Unknown,https://www.clictune.com/krEE,https://i.imgur.com/3arz3hN.jpeg
+Driftwood,https://www.clictune.com/krEF,https://i.imgur.com/szVZrCi.jpeg
+Barotrauma ,https://www.clictune.com/krEG,https://i.imgur.com/bFXfqtt.jpeg
+Human Fall Flat,https://www.clictune.com/krEH,https://i.imgur.com/pZbiyq0.jpeg
+Backrooms Escape Together,https://www.clictune.com/krEI,https://i.imgur.com/YF2jkFW.jpeg
+The Backrooms : Last Expedition,https://www.clictune.com/krEJ,https://i.imgur.com/4zytZVy.jpeg
+TCG Card Shop Simulator,https://www.clictune.com/krEK,https://i.imgur.com/bww350O.jpeg
+The Planet Crafter,https://www.clictune.com/krEL,https://i.imgur.com/RkXv5DO.jpeg
+Clandestine,https://www.clictune.com/krEM,https://i.imgur.com/uRXUNGm.jpeg
+Cyberpunk 2077,https://www.clictune.com/krEN,https://i.imgur.com/WoEktSJ.jpeg
+Bloons TD 6,https://www.clictune.com/krEO,https://i.imgur.com/g78URNK.jpeg
+Rust,https://www.clictune.com/krEP,https://i.imgur.com/eEBPBxD.jpeg
+Call of Duty Black Ops II,https://www.clictune.com/krEQ,https://i.imgur.com/nZ5TqQp.jpeg
+BeamNG.drive,https://www.clictune.com/krER,https://i.imgur.com/3H4eKkq.jpeg
+Grand Theft Auto IV,https://www.clictune.com/krES,https://i.imgur.com/6xoGvLr.jpeg
+The Elder Scrolls V: Skyrim Anniversary Edition,https://www.clictune.com/krET,https://i.imgur.com/src6Edt.jpeg
+Call of Duty: Modern Warfare 3,https://www.clictune.com/krEU,https://i.imgur.com/dGkEusz.jpeg
+Forza Horizon 4,https://www.clictune.com/krEV,https://i.imgur.com/aaJNLsU.jpeg
+The Witcher 3: Wild Hunt,https://www.clictune.com/krEW,https://i.imgur.com/eykYyol.jpeg
+Car Mechanic Simulator 2021,https://www.clictune.com/krEX,https://i.imgur.com/TP0YLas.jpeg
+Assassin’s Creed Valhalla,https://www.clictune.com/krEY,https://i.imgur.com/HkzJ14E.jpeg
+Call of Duty: WWII,https://www.clictune.com/krEZ,https://i.imgur.com/yoEeYw7.jpeg
+Chained Together,https://www.clictune.com/krF0,https://i.imgur.com/vYziwP5.jpeg
+Fallout 4 ,https://www.clictune.com/krF1,https://i.imgur.com/b17j8s9.jpeg
+Fallout 4 (low res),https://www.clictune.com/krF2,https://i.imgur.com/b17j8s9.jpeg
+Forza Horizon 3,https://www.clictune.com/krF3,https://i.imgur.com/1Lmv1QU.jpeg
+Day Z,https://www.clictune.com/krF4,https://i.imgur.com/XYPtf9g.jpeg
+Forza Horizon 2 ,https://www.clictune.com/krF5,https://i.imgur.com/R4Vklmv.jpeg
 `
 
 function csvJSON(csv){
