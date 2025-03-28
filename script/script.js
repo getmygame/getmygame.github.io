@@ -200,10 +200,23 @@ function csvJSON(csv){
 
 
 games = csvJSON(games)
+var i_pos = 0
 
 window.addEventListener("load", (event) => {
-
-    for(var i = 0; i+1<games.length; i++) {
+    LoadGame(50)   
+});
+function LoadNext() {
+    LoadGame(50)
+}
+function LoadGame(num) {
+    if (i_pos >= games.length) {
+        return false
+    }
+    for(var i = i_pos; i+1<games.length; i++) {
+        if (i - i_pos >= num) { // antilag
+            i_pos = i
+            return
+        }
         game = games[i]
         $(".grid-container").append(`
             <div class="grid-item" onclick="window.open('` +game.link+`')">
@@ -212,6 +225,8 @@ window.addEventListener("load", (event) => {
             </div>
         `)
         
-    }
-    
-});
+    }  
+    // Delete load button
+    $('.loadmore-btn').remove()
+    i_pos = games.length + 1
+}
