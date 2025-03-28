@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../../assets/fonts/Montserrat.ttf");
+}
+*{
+    font-family: Montserrat;
+}
+body{
+    margin: 0;
+}
+.elements{
+    display: flex;
+    flex-wrap: wrap;
+}
+.game{
+    border: 1px rgb(15,15,15) solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.2rem;
+    width: 20rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+.game .txtinfo *{
+    margin: 0;
+    margin-left: 0.5rem;
+}
+.game img{
+    height: 100%;
+    width: 100%;
+}

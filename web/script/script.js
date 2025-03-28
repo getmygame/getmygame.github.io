@@ -1,0 +1,218 @@
+var games = `name,link,image
+7 Days to die,https://www.clictune.com/krrf,https://i.imgur.com/EC1ezkf.jpeg
+Assassin Creed Mirage,https://www.clictune.com/krrg,https://i.imgur.com/4x4u8oT.png
+BIGFOOT,https://www.clictune.com/krri,https://i.imgur.com/30sh95H.jpeg
+Bodycam,https://www.clictune.com/krrj,https://i.imgur.com/DHbghj6.jpeg
+Buckshot Roulette,https://www.clictune.com/krrk,https://i.imgur.com/duLHrfm.jpeg
+Bus Simulator 18,https://www.clictune.com/krrl,https://i.imgur.com/mCImvxQ.jpeg
+Bus Simulator 21,https://www.clictune.com/krrm,https://i.imgur.com/xJmsoOu.jpeg
+Cities Skyline,https://www.clictune.com/krrn,https://i.imgur.com/Dh9EgQk.png
+Construction Simulator Gold Edition,https://www.clictune.com/krro,https://i.imgur.com/sOqh94E.jpeg
+Content Warning,https://www.clictune.com/krrp,https://i.imgur.com/MwNn2xi.jpeg
+Escape the Backrooms,https://www.clictune.com/krrq,https://i.imgur.com/Icfs1yU.jpeg
+Euro Truck Simulator 2,https://www.clictune.com/krrr,https://i.imgur.com/oefwNOL.png
+Factorio,https://www.clictune.com/krrs,https://i.imgur.com/yk6gzwi.jpeg
+Farming Simulator 22 Platinum Edition,https://www.clictune.com/krrF,https://i.imgur.com/sJeSEbr.jpeg
+Farming Simulator 25,https://www.clictune.com/krrG,https://i.imgur.com/i55uMNn.jpeg
+Fast Food Simulator,https://www.clictune.com/krrH,https://i.imgur.com/4JqJJcW.jpeg
+Forza Horizons 5,https://www.clictune.com/krrI,https://i.imgur.com/zfkrL7h.jpeg
+Garry's Mod,https://www.clictune.com/krrJ,https://i.imgur.com/WZ0IMVq.jpeg
+Geometry Dash,https://www.clictune.com/krrK,https://i.imgur.com/RHX38nZ.jpeg
+Get To Work,https://www.clictune.com/krrL,https://i.imgur.com/Ad7SHEw.jpeg
+Granny escape together,https://www.clictune.com/krrM,https://i.imgur.com/rVWhXEy.jpeg
+Grocery Store Simulator,https://www.clictune.com/krrN,https://i.imgur.com/FwmkJnx.jpeg
+Lego Batman The Videogame,https://www.clictune.com/krrO,https://i.imgur.com/AdyUqqw.jpeg
+Les Sims 3 Complete Edition,https://www.clictune.com/krrP,https://i.imgur.com/0p6lIXV.jpeg
+Liar's Bar,https://www.clictune.com/krrQ,https://i.imgur.com/O9cXchk.jpeg
+Microsoft Flight Simulator,https://www.clictune.com/krrR,https://i.imgur.com/HeRQkDj.jpeg
+Minecraft Dungeons,https://www.clictune.com/krrS,https://i.imgur.com/J5T4Tb9.jpeg
+Need For Speed Payback,https://www.clictune.com/krrT,https://i.imgur.com/RAl5CTZ.jpeg
+Overcooked ,https://www.clictune.com/krrU,https://i.imgur.com/mUIBZpq.jpeg
+Overcooked 2,https://www.clictune.com/krrV,https://i.imgur.com/mWWke49.jpeg
+PC Building Simulator,https://www.clictune.com/krrW,https://i.imgur.com/XhJhqFF.jpeg
+People Playground ,https://www.clictune.com/krrX,https://i.imgur.com/6hwOBCW.jpeg
+Plague INC,https://www.clictune.com/krrY,https://i.imgur.com/29ycyce.jpeg
+Polybridge 3,https://www.clictune.com/krrZ,https://i.imgur.com/Pi0bOtt.jpeg
+R.E.P.O,https://www.clictune.com/krs0,https://i.imgur.com/FPqIjDh.jpeg
+Raft,https://www.clictune.com/krs1,https://i.imgur.com/wWL2yQj.jpeg
+Ready Or Not,https://www.clictune.com/krs2,https://i.imgur.com/b1xOhc8.jpeg
+Road 96,https://www.clictune.com/krs3,https://i.imgur.com/zNXSpCB.jpeg
+Scrap Mechanic,https://www.clictune.com/krs4,https://i.imgur.com/5kgx7Ro.jpeg
+STAR WARS Jedi Survivor,https://www.clictune.com/krs5,https://i.imgur.com/rfy2Q7m.jpeg
+Subnautica,https://www.clictune.com/krs6,https://i.imgur.com/YE9udmz.jpeg
+Terraria,https://www.clictune.com/krs7,https://i.imgur.com/7yP8CLn.jpeg
+The Barber Shop,https://www.clictune.com/krs8,https://i.imgur.com/oShhDyT.jpeg
+The Escapists 2,https://www.clictune.com/krs9,https://i.imgur.com/T1jpiOj.jpeg
+The Forest,https://www.clictune.com/krsa,https://i.imgur.com/EGQno9L.jpeg
+The Rooms,https://www.clictune.com/krsb,https://i.imgur.com/3PfIyBo.jpeg
+The Rooms 2,https://www.clictune.com/krsc,https://i.imgur.com/Sm44cUv.jpeg
+The Rooms 3,https://www.clictune.com/krsd,https://i.imgur.com/aB1GmKq.jpeg
+Trombone Champ,https://www.clictune.com/krse,https://i.imgur.com/wDg7qLr.jpeg
+Unrailed,https://www.clictune.com/krsf,https://i.imgur.com/GT9IpKK.jpeg
+Unrailed - Back On Track,https://www.clictune.com/krsg,https://i.imgur.com/tG8Yr1T.jpeg
+Watch Dogs ,https://www.clictune.com/krsh,https://i.imgur.com/TMB7phj.jpeg
+Who's your Daddy,https://www.clictune.com/krsi,https://i.imgur.com/XufZVjM.jpeg
+TramSim Vienna,https://www.clictune.com/krsj,https://i.imgur.com/Lythlos.jpeg
+Hitman 2,https://www.clictune.com/krsk,https://i.imgur.com/r6l440Z.jpeg
+Project Zomboid,https://www.clictune.com/krsl,https://i.imgur.com/BPSxnUz.jpeg
+Unpacking,https://www.clictune.com/krsm,https://i.imgur.com/556wS8x.jpeg
+It Follows You By,https://www.clictune.com/krsn,https://i.imgur.com/NUV9J7B.jpeg
+Fast Food Manager,https://www.clictune.com/krso,https://i.imgur.com/e1F0Ubz.jpeg
+Prison Simulator,https://www.clictune.com/krsp,https://i.imgur.com/p55gapB.jpeg
+Granny 3,https://www.clictune.com/krsq,https://i.imgur.com/HHYxjV8.jpeg
+Granny 2,https://www.clictune.com/krsr,https://i.imgur.com/GJGr6Ok.jpeg
+Granny,https://www.clictune.com/krss,https://i.imgur.com/9rrGtrw.jpeg
+KallaX   ,https://www.clictune.com/krst,https://i.imgur.com/Y43fEIE.jpeg
+Granny Remake,https://www.clictune.com/krsu,https://i.imgur.com/ZmtLLvd.jpeg
+Grey Hack,https://www.clictune.com/krsv,https://i.imgur.com/8cIzZIW.jpeg
+Youtubers Life 2,https://www.clictune.com/krsw,https://i.imgur.com/2GCgAWe.jpeg
+Grand Theft Auto The Trilogy,https://www.clictune.com/krsx,https://i.imgur.com/eiwXcQS.jpeg
+Only Up!,https://www.clictune.com/krsy,https://i.imgur.com/3vv038A.jpeg
+Electrician Simulator,https://www.clictune.com/krsD,https://i.imgur.com/EDFxx3E.jpeg
+Grand Theft Auto V,https://www.clictune.com/krsF,https://i.imgur.com/VISLnpS.jpeg
+Stick Fight The Game,https://www.clictune.com/krsG,https://i.imgur.com/FdDwKHc.jpeg
+Dead Island 2,https://www.clictune.com/krsH,https://i.imgur.com/c3fA5ac.jpeg
+Resident Evil 2,https://www.clictune.com/krsI,https://i.imgur.com/XHkE4ui.jpeg
+Resident Evil 4 Remake,https://www.clictune.com/krsJ,https://i.imgur.com/F1Z7kxq.jpeg
+Mindustry,https://www.clictune.com/krsK,https://i.imgur.com/lVU5pQO.jpeg
+You Suck at Parking,https://www.clictune.com/krsM,https://i.imgur.com/1JmSUeq.jpeg
+Sons Of The Forest,https://www.clictune.com/krsN,https://i.imgur.com/EqIAZ1E.jpeg
+PAYDAY 2,https://www.clictune.com/krsO,https://i.imgur.com/DsakDzm.jpeg
+Surgeon Simulator 2,https://www.clictune.com/krsP,https://i.imgur.com/81tEv0L.jpeg
+SCP Pandemic,https://www.clictune.com/krsQ,https://i.imgur.com/6wK7avf.jpeg
+Hitman 3,https://www.clictune.com/krsR,https://i.imgur.com/LydNVI7.jpeg
+Portal 2,https://www.clictune.com/krsS,https://i.imgur.com/KEwcpAF.jpeg
+Five Nights at Freddys Help Wanted,https://www.clictune.com/krsU,https://i.imgur.com/VkbzIM7.jpeg
+Carry The Glass,https://www.clictune.com/krsV,https://i.imgur.com/o6hO1cq.jpeg
+Balatro,https://www.clictune.com/krsW,https://i.imgur.com/Gm2WNeU.jpeg
+Slackers Carts of Glory,https://www.clictune.com/krsY,https://i.imgur.com/vBSxxHE.jpeg
+Five Nights at Freddys Help Wanted 2,https://www.clictune.com/krsZ,https://i.imgur.com/u9Z9k4e.jpeg
+Half-Life Alyx,https://www.clictune.com/krt0,https://i.imgur.com/QxqmaFI.jpeg
+Truck and Logistics Simulator,https://www.clictune.com/krt1,https://i.imgur.com/Hs85t33.jpeg
+Red Dead Redemption,https://www.clictune.com/krt2,https://i.imgur.com/WXEyqYc.jpeg
+Gunsmith Simulator,https://www.clictune.com/krt3,https://i.imgur.com/bIdz5Tm.jpeg
+Left 4 Dead 2,https://www.clictune.com/krt4,https://i.imgur.com/NCqj1JM.jpeg
+Just Cause 3,https://www.clictune.com/krt5,https://i.imgur.com/3ZfIK5F.jpeg
+Job Simulator,https://www.clictune.com/krt6,https://i.imgur.com/9F7siJ5.jpeg
+South Park Snow Day,https://www.clictune.com/krt7,
+Cooking Simulator VR,https://www.clictune.com/krt8,
+Beat Saber,https://www.clictune.com/krt9,
+Star Wars Jedi Fallen Order,https://www.clictune.com/krta,
+Kebab Chefs Restaurant Simulator,https://www.clictune.com/krtb,
+Supermarket Simulator,https://www.clictune.com/krtc,
+NARUTO TO BORUTO SHINOBI STRIKER,https://www.clictune.com/krtd,
+Helicopter Simulator,https://www.clictune.com/krte,
+Call of Duty Modern Warfare 2,https://www.clictune.com/krtf,
+Call of Duty Modern Warfare Remastered,https://www.clictune.com/krtg,
+Assassins Creed Origins,https://www.clictune.com/krth,
+Assassin’s Creed IV Black Flag,https://www.clictune.com/krti,
+Assassins Creed III Remastered,https://www.clictune.com/krtj,
+Assassin's Creed II,https://www.clictune.com/krtk,
+Assassin's Creed,https://www.clictune.com/krtl,
+Phasmophobia,https://www.clictune.com/krtm,
+Workers and Resources Soviet Republic,https://www.clictune.com/krtn,
+Poly Bridge 2,https://www.clictune.com/krto,
+Pacify,https://www.clictune.com/krtp,
+Emergency Call 112,https://www.clictune.com/krtq,
+	Goat Simulator,https://www.clictune.com/krtr,
+FNAF Sister Location,https://www.clictune.com/krts,
+Five Nights at Freddy's 4,https://www.clictune.com/krtt,
+Five Nights at Freddy's 3,https://www.clictune.com/krtu,
+Five Nights at Freddy's 2,https://www.clictune.com/krtv,
+Five Nights at Freddy's 1,https://www.clictune.com/krtw,
+THORN,https://www.clictune.com/krtx,
+Gang Beasts,https://www.clictune.com/krty,
+Satisfactory,https://www.clictune.com/krtz,
+Universe Sandbox 2,https://www.clictune.com/krtA,
+Control Ultimate Edition,https://www.clictune.com/krtB,
+Subway Simulator,https://www.clictune.com/krtC,
+Untitled Goose Game,https://www.clictune.com/krtD,
+Ranch Simulator,https://www.clictune.com/krtE,
+Cuphead,https://www.clictune.com/krtF,
+Little Inferno,https://www.clictune.com/krtG,
+Darkwood,https://www.clictune.com/krtH,
+European Ship Simulator Remastered,https://www.clictune.com/krtI,
+Thief Simulator,https://www.clictune.com/krtJ,
+RiMS Racing,https://www.clictune.com/krtK,
+shapez.io,https://www.clictune.com/krtL,
+Assetto Corsa Competizione,https://www.clictune.com/krtM,
+Two Point Hospital,https://www.clictune.com/krtN,
+The Architect Paris,https://www.clictune.com/krtO,
+Mafia Definitive Edition,https://www.clictune.com/krtP,
+Police Simulator Patrol Officers,https://www.clictune.com/krtQ,
+Detroit Become Human,https://www.clictune.com/krtR,
+Streamer Life Simulator,https://www.clictune.com/krtS,
+Grounded,https://www.clictune.com/krtT,
+MX Bikes,https://www.clictune.com/krtU,
+Dead Island Retro Revenge,https://www.clictune.com/krtV,
+Red Dead Redemption 2,https://www.clictune.com/krtW,
+Dead Island Riptide Definitive Edition,https://www.clictune.com/krtX,
+Dead Island Definitive Edition,https://www.clictune.com/krtY,
+INSURGENCY,https://www.clictune.com/krtZ,
+L.A. Noire - Complete Edition,https://www.clictune.com/kru0,
+Peopole Playground,https://www.clictune.com/kru1,
+Snowtopia,https://www.clictune.com/kru2,
+Metro 2033 Redux,https://www.clictune.com/kru3,
+Drug Dealer Simulator,https://www.clictune.com/kru4,
+Poly Bridge 3,https://www.clictune.com/kru5,
+Winter Resort Simulator Season 2,https://www.clictune.com/kru6,
+Inside The Backrooms,https://www.clictune.com/kru7,
+Welcome to the Game 2,https://www.clictune.com/kru8,
+Slime Rancher 2,https://www.clictune.com/kru9,
+Elden Ring,https://www.clictune.com/krua,
+Stray,https://www.clictune.com/krub,
+Marvel's Spider Man Remastered,https://www.clictune.com/kruc,
+Insurmountable,https://www.clictune.com/krud,
+Five Nights at Freddys Security Breach,https://www.clictune.com/krue,
+Please Dont Touch Anything 3D,https://www.clictune.com/kruf,
+Shredders,https://www.clictune.com/krug,
+Calm Down Stalin,https://www.clictune.com/kruh,
+Keep Talking And Nobody Explodes,https://www.clictune.com/kruF,
+`
+
+function csvJSON(csv){
+
+    var lines=csv.split("\n");
+  
+    var result = [];
+  
+    // NOTE: If your columns contain commas in their values, you'll need
+    // to deal with those before doing the next step 
+    // (you might convert them to &&& or something, then covert them back later)
+    // jsfiddle showing the issue https://jsfiddle.net/
+    var headers=lines[0].split(",");
+  
+    for(var i=1;i<lines.length;i++){
+  
+        var obj = {};
+        var currentline=lines[i].split(",");
+  
+        for(var j=0;j<headers.length;j++){
+            obj[headers[j]] = currentline[j];
+        }
+  
+        result.push(obj);
+  
+    }
+  
+    //return result; //JavaScript object
+    return result; //JSON
+  }
+
+
+games = csvJSON(games)
+
+window.addEventListener("load", (event) => {
+
+    for(var i = 0; i+1<games.length; i++) {
+        game = games[i]
+        $(".grid-container").append(`
+            <div class="grid-item" onclick="window.open('` +game.link+`')">
+                <img src="`+game.image+`" alt="Image 1">
+                <p>`+game.name+`</p>
+            </div>
+        `)
+        
+    }
+    
+});
