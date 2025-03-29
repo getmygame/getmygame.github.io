@@ -1,6 +1,6 @@
 var games = `name,link,image
 7 Days to die,https://www.clictune.com/krrf,https://i.imgur.com/EC1ezkf.jpeg
-Assassin Creed Mirage,https://www.clictune.com/krrg,https://i.imgur.com/4x4u8oT.png
+Assassins Creed Mirage,https://www.clictune.com/krrg,https://i.imgur.com/4x4u8oT.png
 BIGFOOT,https://www.clictune.com/krri,https://i.imgur.com/30sh95H.jpeg
 Bodycam,https://www.clictune.com/krrj,https://i.imgur.com/DHbghj6.jpeg
 Buckshot Roulette,https://www.clictune.com/krrk,https://i.imgur.com/duLHrfm.jpeg
@@ -233,34 +233,67 @@ function csvJSON(csv){
   }
 
 
-games = csvJSON(games)
-var i_pos = 0
 
-window.addEventListener("load", (event) => {
-    LoadGame(50)   
-});
-function LoadNext() {
-    LoadGame(50)
-}
-function LoadGame(num) {
-    if (i_pos >= games.length) {
-        return false
+  $(document).ready(function () {
+    var gamesArray = [];
+    var loadedGames = 0;
+    var gamesPerLoad = 30;
+    
+    function parseGamesData() {
+        var lines = games.split('\n');
+        lines.shift(); // Remove header
+        lines.forEach(line => {
+            var parts = line.split(',');
+            if (parts.length === 3) {
+                gamesArray.push({
+                    name: parts[0].trim(),
+                    link: parts[1].trim(),
+                    image: parts[2].trim()
+                });
+            }
+        });
     }
-    for(var i = i_pos; i+1<games.length; i++) {
-        if (i - i_pos >= num) { // antilag
-            i_pos = i
-            return
-        }
-        game = games[i]
-        $(".grid-container").append(`
-            <div class="grid-item" onclick="window.open('` +game.link+`')">
-                <img src="`+game.image+`" alt="Image 1">
-                <p>`+game.name+`</p>
-            </div>
-        `)
+
+    function displayGames(filteredGames) {
+        $('.grid-container').empty();
+        var gamesToDisplay = filteredGames.slice(0, loadedGames + gamesPerLoad);
         
-    }  
-    // Delete load button
-    $('.loadmore-btn').remove()
-    i_pos = games.length + 1
-}
+        if (gamesToDisplay.length === 0) {
+            $('.grid-container').append('<p class="no-results">No games match your search.</p>');
+        } else {
+            gamesToDisplay.forEach(game => {
+                var gameItem = `<div class="grid-item">
+                                    <a href="${game.link}" target="_blank">
+                                        <img src="${game.image}" alt="${game.name}">
+                                        <p>${game.name}</p>
+                                    </a>
+                                </div>`;
+                $('.grid-container').append(gameItem);
+            });
+        }
+    }
+    
+    function searchGrid() {
+        var searchValue = $('#search').val().toLowerCase();
+        var filteredGames = gamesArray.filter(game => game.name.toLowerCase().includes(searchValue));
+        loadedGames = 0;
+        displayGames(filteredGames);
+        
+        if (searchValue) {
+            $('.loadmore-btn').hide();
+        } else {
+            $('.loadmore-btn').show();
+        }
+    }
+    
+    function LoadNext() {
+        loadedGames += gamesPerLoad;
+        displayGames(gamesArray);
+    }
+
+    parseGamesData();
+    displayGames(gamesArray);
+
+    $('#search').on('keyup', searchGrid);
+    $('.loadmore-btn').on('click', LoadNext);
+});

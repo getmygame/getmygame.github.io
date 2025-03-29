@@ -20,18 +20,19 @@
             padding: 0;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            /* justify-content: center; */
             align-items: center;
             min-height: 100vh;
             background-color: #f4f4f4;
         }
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 25vw));
             gap: 20px;
             padding: 20px;
             max-width: 80vw;
             width: 100%;
+            justify-content: center;
         }
         .grid-item {
             background: white;
@@ -48,6 +49,9 @@
             width: 100%;
             height: 200px;
             object-fit: cover;
+        }
+        .grid-item a {
+            text-decoration: none;
         }
         .grid-item p {
             padding: 15px;
@@ -94,9 +98,9 @@
     <div class="head-content">
         <h2>Important: These are not official publications from the game developers. After testing the game, please go purchase the game from the developer in question.</h2>
         <a href="https://bit.ly/getvideogames">Spreadsheet version</a>
-        <!-- <div class="search-container">
-            <input type="text" id="search" onkeyup="searchGrid()" placeholder="Rechercher...">
-        </div> -->
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search...">
+        </div>
     </div>
     <div class="grid-container">
     </div>
