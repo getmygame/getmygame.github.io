@@ -22,8 +22,12 @@
             flex-direction: column;
             /* justify-content: center; */
             align-items: center;
-            min-height: 100vh;
             background-color: #f4f4f4;
+        }
+        .scroll-container{
+            height: 70vh;
+            overflow-y: scroll;
+            overflow-x: hidden;
         }
         .grid-container {
             display: grid;
@@ -32,7 +36,6 @@
             padding: 20px;
             max-width: 80vw;
             width: 100%;
-            justify-content: center;
         }
         .grid-item {
             background: white;
@@ -60,7 +63,7 @@
             color: #333;
         }
         .head-content{
-            margin: 0 15rem 0 15rem;
+            margin: 0 15vw 0 15vw;
             display: flex;
             flex-direction: column;
             align-content: center;
@@ -81,7 +84,7 @@
             border-radius: 5px;
         }
         .bottom-content{
-            margin: 0 15rem 0 15rem;
+            margin: 0 15vw 0 15vw;
         }
         .loadmore-btn{
             margin-bottom: 20px;
@@ -91,6 +94,9 @@
             font-size: 16px;
             border: 1px solid #ccc;
             border-radius: 5px;
+        }
+        h2{
+            font-size: 2vh;
         }
     </style>
 </head>
@@ -102,11 +108,15 @@
             <input type="text" id="search" placeholder="Search...">
         </div>
     </div>
-    <div class="grid-container">
+    <div class="scroll-container">
+        <div class="grid-container">
+        </div>
+        <div class="bottom-content">
+            <button class="loadmore-btn">Load More</button>
+        </div>
     </div>
-    <div class="bottom-content">
-        <button class="loadmore-btn">Load More</button>
-    </div>
+    
+
     
 </body>
 </html>
