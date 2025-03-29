@@ -23,11 +23,13 @@
             /* justify-content: center; */
             align-items: center;
             background-color: #f4f4f4;
+            overflow: hidden;
         }
         .scroll-container{
             height: 70vh;
             overflow-y: scroll;
             overflow-x: hidden;
+            margin-bottom: 2vh;
         }
         .grid-container {
             display: grid;
@@ -98,12 +100,16 @@
         h2{
             font-size: 2vh;
         }
+        .add-game{
+            font-size: 0.5rem;
+        }
     </style>
 </head>
 <body>
     <div class="head-content">
         <h2>Important: These are not official publications from the game developers. After testing the game, please go purchase the game from the developer in question.</h2>
         <a href="https://bit.ly/getvideogames">Spreadsheet version</a>
+        <a class="add-game" href="https://forms.gle/uYAUARkPFgYebaCb6">Contact : Add game</a>
         <div class="search-container">
             <input type="text" id="search" placeholder="Search...">
         </div>
@@ -114,7 +120,9 @@
         <div class="bottom-content">
             <button class="loadmore-btn">Load More</button>
         </div>
+        
     </div>
+    
     
 
     
