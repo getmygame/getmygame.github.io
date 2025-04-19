@@ -351,7 +351,7 @@ function csvJSON(csv){
                 var gameItem = `<div class="grid-item">
                                     <a href="${game.link}" target="_blank">
                                         <img src="${game.image}" alt="${game.name}">
-                                        <p>${game.name}</p>
+                                        <p id="item-name">${game.name}</p>
                                     </a>
                                 </div>`;
                 $('.grid-container').append(gameItem);
@@ -383,3 +383,63 @@ function csvJSON(csv){
     $('#search').on('keyup', searchGrid);
     $('.loadmore-btn').on('click', LoadNext);
 });
+
+// Theme switcher
+function toggleTheme() {
+    const body = document.body;
+    const themeSwitcher = document.getElementById('theme-switcher');
+    const moon = document.getElementById('moon');
+    const sun = document.getElementById('sun');
+    const griditem = document.querySelectorAll('.grid-item');
+    const loadmorebtn = document.querySelector('.loadmore-btn');
+    const search = document.getElementById('search');
+    const alink = document.querySelectorAll('a');
+    body.classList.toggle('dark-theme');
+    themeSwitcher.classList.toggle('dark-theme');
+
+    if (body.classList.contains('dark-theme')) {
+        alink.forEach(link => {
+            link.style.color = '#fff';
+        });
+        body.style.backgroundColor = '#333';
+        body.style.color = '#fff';
+        griditem.forEach(item => {
+            item.style.backgroundColor = '#444';
+        });
+        griditem.forEach(item => {
+            const p = item.querySelector('p');
+            if (p) {
+                p.style.color = '#fff';
+            }
+        });
+        moon.style.transform = 'translate(0, 0)';
+        sun.style.transform = 'translate(0, 0)';
+        loadmorebtn.style.backgroundColor = '#444';
+        loadmorebtn.style.color = '#fff';
+        search.style.backgroundColor = '#444';
+        search.style.color = '#fff';
+        search.style.boxShadow = '0 4px 8px rgba(255, 255, 255, 0.1)';
+    } else {
+        alink.forEach(link => {
+            link.style.color = '#333';
+        });
+        body.style.backgroundColor = '#f4f4f4';
+        body.style.color = '#333';
+        griditem.forEach(item => {
+            item.style.backgroundColor = '#fff';
+        });
+        griditem.forEach(item => {
+            const p = item.querySelector('p');
+            if (p) {
+                p.style.color = '#333';
+            }
+        });
+        moon.style.transform = 'translate(20px, 20px)';
+        sun.style.transform = 'translate(20px, 20px)';
+        loadmorebtn.style.backgroundColor = '#fff';
+        loadmorebtn.style.color = '#333';
+        search.style.backgroundColor = '#fff';
+        search.style.color = '#333';
+        search.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+    }
+}
